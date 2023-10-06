@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h2 style="margin-left: 15px;">Your goal is to get 10 points.</h2>
+
+    <canvas id="game-zone" width="288" height="512"></canvas>
+    <div class="finalBlock">
+        <h2>Your score is: <span class="finalScore">0</span></h2>
+        <button onclick="location.reload()">Restart</button>
+    </div>
+
+    <div class="ifPlayerGotEnoughScore">
+        <h2>Good job!</h2>
+        <h2>You won!</h2>
+        <button onclick="location.reload()">Restart</button>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/StanislavGo" target="_blank">MY GIT</a>
+            <h2>2023</h2>
+            <link rel="stylesheet" href="https://rs.school/js-stage0/">
+            <a href="https://rs.school/js-stage0/" target="_blank"><img src="img/rs_school_js.svg"></a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

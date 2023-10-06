@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(22, 22, 22);
+}
+
+canvas {
+    left: calc(50% - 144px);
+    position: relative;
+    margin-top: 25px;
+}
+
+.finalBlock,
+.ifPlayerGotEnoughScore {
+    width: 200px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    top: calc(50% - 75px);
+    border-radius: 5px;
+    left: calc(50% - 100px);
+    display: none;
+    transition: .3s;
+}
+
+.ifPlayerGotEnoughScore {
+    text-align: center;
+}
+
+.ifPlayerGotEnoughScore button {
+    margin: 0 !important;
+}
+
+.finalBlock button,
+.ifPlayerGotEnoughScore button {
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid black;
+    background: wheat;
+    margin: 15px 0px 0px 48px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.finalBlock button:hover,
+.ifPlayerGotEnoughScore button:hover {
+    background: rgb(224, 224, 224);
+}
+
+.finalBlock h2 {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    min-height: 80px;
+    background: grey;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.footer a:hover {
+    color: rgb(32, 32, 32);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    left: 10%;
+    position: relative;
+}
+
+.footer img {
+    width: 65px;
+}
