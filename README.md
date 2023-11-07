@@ -2,3 +2,7 @@
 ## https://stanislavgo.github.io/Flappy-Bird-Game/
 
 ![The Photo of My Game](./img/photo-of-game.png)
+
+Technologies used:
+* HTML, CSS
+* JavaScript
